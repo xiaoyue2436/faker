@@ -1,0 +1,10 @@
+js_config:
+- Container:
+  - []
+  Env: LUCK_DRAW_URL
+  KeyWord:
+  - - LUCK_DRAW_URL
+  Name: 【Faker】店铺抽奖通用活动
+  Script: KingRan_KR/jd_luck_draw.js
+  TimeOut: 0
+  Wait: 2
