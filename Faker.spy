@@ -1,10 +1,10 @@
 js_config:
 - Container:
   - []
-  Env: LUCK_DRAW_URL
+  Env: jd_cjdaily_activityId
   KeyWord:
-  - - LUCK_DRAW_URL
-  Name: 【Faker】店铺抽奖通用活动
-  Script: KingRan_KR/jd_luck_draw.js
+  - - jd_cjdaily_activityId
+  Name: CJ每日抢好礼通用活动
+  Script: KingRan_KR/jd_cjdaily.js
   TimeOut: 0
   Wait: 2
