@@ -8,3 +8,12 @@ js_config:
   Script: KingRan_KR/jd_cjdaily.js
   TimeOut: 0
   Wait: 2
+- Container:
+  - []
+  Env: jd_cjhy_wxPointShopView_url
+  KeyWord:
+  - - jd_cjhy_wxPointShopView_url
+  Name: cjhy积分兑换京豆
+  Script: jd_cjhy_wxPointShopView.js
+  TimeOut: 0
+  Wait: 2
