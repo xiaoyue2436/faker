@@ -17,3 +17,12 @@ js_config:
   Script: jd_cjhy_wxPointShopView.js
   TimeOut: 0
   Wait: 2
+- Container:
+  - []
+  Env: jd_lzkj_interactsaas_dazhuanpan_Ids
+  KeyWord:
+  - - jd_lzkj_interactsaas_dazhuanpan_Ids
+  Name: lzkj_interactsaas大转盘抽奖
+  Script: jd_lzkj_interactsaas_dazhuanpan.js
+  TimeOut: 0
+  Wait: 2
