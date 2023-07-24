@@ -98,8 +98,8 @@ js_config:
   Env: jd_shopDraw_activityUrl
   KeyWord:
   - - jd_shopDraw_activityUrl
-  Name: 店铺左侧刮刮乐
-  Script: SuperManito_cishanjia_main/jd_shopDraw.js
+  Name: 店铺刮刮乐
+  Script: SuperManito_cishanjia_main/jd_shopdraw.js
   TimeOut: 0
   Wait: 2
 - Container:
@@ -314,7 +314,7 @@ js_config:
   KeyWord:
   - - jd_lzkj_loreal_draw_url
   Name: 幸运抽奖（lzkj_loreal）
-  Script: KingRan_KR/jd_lzkj_loreal_draw.js
+  Script: SuperManito_cishanjia_main/jd_lzkj_loreal_draw.js
   TimeOut: 0
   Wait: 2
 - Container:
@@ -629,15 +629,6 @@ js_config:
   - - jd_qbyql_id
   Name: 倩碧邀请礼
   Script: shufflewzc_faker3_main/jd_qbyql.js
-  TimeOut: 0
-  Wait: 2
-- Container:
-  - []
-  Env: jd_AJMH_id
-  KeyWord:
-  - - jd_AJMH_id
-  Name: 安佳做任务开盲盒，赢好礼
-  Script: shufflewzc_faker3_main/jd_AJMH.js
   TimeOut: 0
   Wait: 2
 - Container:
