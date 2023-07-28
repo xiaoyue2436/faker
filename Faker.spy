@@ -447,15 +447,6 @@ js_config:
   Wait: 2
 - Container:
   - []
-  Env: jd_txzj_sign_in_id
-  KeyWord:
-  - - jd_txzj_sign_in_id
-  Name: txzj 签到
-  Script: shufflewzc_faker3_main/jd_txzj_sign_in.js
-  TimeOut: 0
-  Wait: 2
-- Container:
-  - []
   Env: jd_cart_item_activityUrl
   KeyWord:
   - - jd_cart_item_activityUrl
@@ -687,11 +678,11 @@ js_config:
   Wait: 2
 - Container:
   - []
-  Env: JINGGENG_SHOW_SIGN_URL
+  Env: jd_jinggeng_showSign_activityUrl
   KeyWord:
-  - - JINGGENG_SHOW_SIGN_URL
-  Name: jinggeng签到有礼
-  Script: mrright-cyber_saasJK/jinggeng_showSign_Jejz.js
+  - - jd_jinggeng_showSign_activityUrl
+  Name: 店铺签到（京耕）
+  Script: SuperManito_cishanjia_main/jd_jinggeng_showSign.js
   TimeOut: 0
   Wait: 2
 - Container:
@@ -719,5 +710,86 @@ js_config:
   - - GAME_LUCK_DRAW_URL
   Name: saas游戏抽奖
   Script: mrright-cyber_saasJK/game_luckDraw_Jejz.js
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: jd_jinggeng_showTaskDraw_activityUrl
+  KeyWord:
+  - - jd_jinggeng_showTaskDraw_activityUrl
+  Name: 九宫格抽奖（京耕）
+  Script: SuperManito_cishanjia_main/jd_jinggeng_showTaskDraw.js
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: jd_jinggeng_showPartition_activityUrl
+  KeyWord:
+  - - jd_jinggeng_showPartition_activityUrl
+  Name: 组队瓜分奖品（京耕）
+  Script: SuperManito_cishanjia_main/jd_jinggeng_showPartition.js
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: jd_jinggeng_showPerfectInformation_activityUrl
+  KeyWord:
+  - - jd_jinggeng_showPerfectInformation_activityUrl
+  Name: 完善资料有礼（京耕）
+  Script: SuperManito_cishanjia_main/jd_jinggeng_showPerfectInformation.js
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: jd_jinggeng_showInviteJoin_activityUrl
+  KeyWord:
+  - - jd_jinggeng_showInviteJoin_activityUrl
+  Name: 邀请入会赢好礼（京耕）
+  Script: SuperManito_cishanjia_main/jd_jinggeng_showInviteJoin.js
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: jd_jinggeng_showFavoriteShop_activityUrl
+  KeyWord:
+  - - jd_jinggeng_showFavoriteShop_activityUrl
+  Name: 关注店铺有礼（京耕）
+  Script: SuperManito_cishanjia_main/jd_jinggeng_showFavoriteShop.js
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: jd_jinggeng_showDrawOne_activityUrl
+  KeyWord:
+  - - jd_jinggeng_showDrawOne_activityUrl
+  Name: 大转盘抽奖（京耕）
+  Script: SuperManito_cishanjia_main/jd_jinggeng_showDrawOne.js
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: jd_jinggeng_showCart_activityUrl
+  KeyWord:
+  - - jd_jinggeng_showCart_activityUrl
+  Name: 加购有礼（京耕）
+  Script: SuperManito_cishanjia_main/jd_jinggeng_showCart.js
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: jd_jinggeng_loadBlindBox_activityUrl
+  KeyWord:
+  - - jd_jinggeng_loadBlindBox_activityUrl
+  Name: 惊喜开盲盒（京耕）
+  Script: SuperManito_cishanjia_main/jd_jinggeng_loadBlindBox.js
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: jd_jinggeng_floor_activityUrl
+  KeyWord:
+  - - jd_jinggeng_floor_activityUrl
+  Name: 盖楼有礼（京耕）
+  Script: SuperManito_cishanjia_main/jd_jinggeng_floor.js
   TimeOut: 0
   Wait: 2
