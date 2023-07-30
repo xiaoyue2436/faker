@@ -10,15 +10,6 @@ js_config:
   Wait: 2
 - Container:
   - []
-  Env: M_WX_SHARE_URL
-  KeyWord:
-  - - M_WX_SHARE_URL
-  Name: M分享有礼
-  Script: shufflewzc_faker3_main/m_jd_wx_share.js
-  TimeOut: 0
-  Wait: 2
-- Container:
-  - []
   Env: jd_fxyl_activityId
   KeyWord:
   - - jd_fxyl_activityId
