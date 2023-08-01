@@ -604,7 +604,7 @@ js_config:
   KeyWord:
   - - jd_a2_id
   Name: a2集成长值赢千元礼包
-  Script: shufflewzc_faker3_main/jd_a2.js
+  Script: KingRan_KR/jd_a2_draw.js
   TimeOut: 0
   Wait: 2
 - Container:
@@ -623,6 +623,24 @@ js_config:
   - - jd_AJMH_id
   Name: 安佳做任务开盲盒，赢好礼
   Script: KingRan_KR/jd_AJMH.js
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: jd_fh_id
+  KeyWord:
+  - - jd_fh_id
+  Name: 飞鹤集成长值赢千元礼包
+  Script: KingRan_KR/jd_fh_draw.js
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: jd_sk2_id
+  KeyWord:
+  - - jd_sk2_id
+  Name: SK2互动抽奖，至高赢经典神仙水
+  Script: KingRan_KR/jd_sk2_draw.js
   TimeOut: 0
   Wait: 2
 - Container:
