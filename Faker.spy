@@ -40,6 +40,15 @@ js_config:
   Wait: 2
 - Container:
   - []
+  Env: jd_completeInfoActivity_activityUrl
+  KeyWord:
+  - - jd_completeInfoActivity_activityUrl
+  Name: 完善信息有礼（超级会员）
+  Script: KingRan_KR/jd_completeInfoActivity.js
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
   Env: DPCJID
   KeyWord:
   - - DPCJID
@@ -187,6 +196,7 @@ js_config:
   KeyWord:
   - - prodevactCode
   - - jd_inv_authorCode
+  - - yhyauthorCode
   Name: 邀请好友入会赢好礼-火箭版
   Script: shufflewzc_faker3_main/jd_prodev.js
   TimeOut: 0
@@ -479,8 +489,18 @@ js_config:
   KeyWord:
   - - jd_wxMcLevelAndBirthGifts_activityId
   - - jd_cjhy_wxMcLevelAndBirthGifts_ids
+  - - jd_wxBirthGiftsId
   Name: 生日礼包和会员等级礼包
   Script: SuperManito_cishanjia_main/jd_wxMcLevelAndBirthGifts.js
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: jd_wxMcLevelAndBirthGifts_activityUrl
+  KeyWord:
+  - - jd_wxMcLevelAndBirthGifts_activityUrl
+  Name: 生日礼包和会员等级礼包
+  Script: KingRan_KR/jd_wxMcLevelAndBirthGifts.js
   TimeOut: 0
   Wait: 2
 - Container:
@@ -571,15 +591,6 @@ js_config:
   Wait: 2
 - Container:
   - []
-  Env: jd_wxBirthGiftsId
-  KeyWord:
-  - - jd_wxBirthGiftsId
-  Name: 生日等级礼包-JK
-  Script: shufflewzc_faker3_main/jd_wxBirthGifts.py
-  TimeOut: 0
-  Wait: 2
-- Container:
-  - []
   Env: jd_pointExgBeans_activityUrl
   KeyWord:
   - - jd_pointExgBeans_activityUrl
@@ -603,6 +614,15 @@ js_config:
   - - jd_qbyql_id
   Name: 倩碧邀请礼
   Script: shufflewzc_faker3_main/jd_qbyql.js
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: jd_AJMH_id
+  KeyWord:
+  - - jd_AJMH_id
+  Name: 安佳做任务开盲盒，赢好礼
+  Script: KingRan_KR/jd_AJMH.js
   TimeOut: 0
   Wait: 2
 - Container:
@@ -826,7 +846,26 @@ js_config:
   Env: jd_shopSign_activityUrl
   KeyWord:
   - - jd_shopSign_activityUrl
+  - - jd_sevenDay_activityUrl
   Name: 无线店铺签到（超级无线/超级会员）
   Script: SuperManito_cishanjia_main/jd_shopSign.js
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: jd_wechat_openGroup_activeId
+  KeyWord:
+  - - jd_wechat_openGroup_activeId
+  Name: 微信红包团
+  Script: KingRan_KR/jd_wechat_openGroup.js
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: jd_fans_fansactiveall_id
+  KeyWord:
+  - - jd_fans_fansactiveall_id
+  Name: 粉丝福利红包
+  Script: KingRan_KR/jd_fans_fansactiveall.js
   TimeOut: 0
   Wait: 2
